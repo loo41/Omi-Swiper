@@ -12,6 +12,7 @@ define('swiper-cube', class extends WeElement {
 
   data = {
     swiper: {
+      loop : true,
       effect: 'cube',
       autoplay: true,
       pagination: {

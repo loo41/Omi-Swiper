@@ -13,7 +13,7 @@ define('my-bar', class extends WeElement {
       <div class="bar">
         <div>{props.mes}</div>
         <div>
-          <a href={props.src}>
+          <a href={props.src} target="_Blank">
             <img src={require('./daima.png')} style="width: 24px" />
           </a>
         </div>

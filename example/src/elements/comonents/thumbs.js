@@ -16,6 +16,7 @@ define('swiper-thumbs', class extends WeElement {
   }
   data = {
     swiper: {
+      loop: true,
       spaceBetween: 10,
       slidesPerView: 4,
       watchSlidesVisibility: true
@@ -33,6 +34,7 @@ define('swiper-thumbs', class extends WeElement {
 
   datas = {
     swiper: {
+      loop: true,
       spaceBetween: 10,
       thumbs: {
         swiper: {

@@ -12,6 +12,7 @@ define('swiper-lazy', class extends WeElement {
 
   data = {
     swiper: {
+      width: 900,
       navigation: {
         type: 'white',
         nextEl: '.swiper-button-next',
@@ -21,27 +22,27 @@ define('swiper-lazy', class extends WeElement {
     },
     imgs: [
       {html: 
-       <div class="swiper-slide">
+       <div class="swiper-slide lazy">
           <img data-src={require('./img/300_1.jpg')} class="swiper-lazy" />
           <div class="swiper-lazy-preloader"> </div>
         </div>
       },
-      {html: <div class="swiper-slide">
+      {html: <div class="swiper-slide lazy">
             <img data-src={require('./img/300_2.jpg')} class="swiper-lazy" />
             <div class="swiper-lazy-preloader"></div>
         </div>
       },
-      {html: <div class="swiper-slide">
+      {html: <div class="swiper-slide lazy">
             <img data-src={require('./img/300_3.jpg')} class="swiper-lazy" />
             <div class="swiper-lazy-preloader"></div>
         </div>
       },
-      {html: <div class="swiper-slide">
+      {html: <div class="swiper-slide lazy">
             <img data-src={require('./img/300_4.jpg')} class="swiper-lazy" />
             <div class="swiper-lazy-preloader"></div>
         </div>
       },
-      {html: <div class="swiper-slide">
+      {html: <div class="swiper-slide lazy">
             <img data-src={require('./img/300_5.jpg')} class="swiper-lazy" />
             <div class="swiper-lazy-preloader"></div>
         </div>
