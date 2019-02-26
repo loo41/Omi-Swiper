@@ -27,6 +27,8 @@ define('my-app', class extends WeElement {
   
   data = {
     swiper: {
+      // 配和外部容器高度可以解决 Swiper 的一些问题
+      width: xxx,
       navigation: {
         // 定义切换按钮的颜色
         type: 'white',
@@ -69,3 +71,8 @@ render(<my-app />, 'body')
 | data.name | string   | 否    | 如果页面有多个实例，必须存在不重复的 name|
 | data.imgs | array    | 是    | 定义数据   |
 | data.getCase | function | 否 | 参数为实例对象 |
+
+## Tip
+
+- Swiper 默认样式可能不满足，需要全局覆盖
+- Use 里面的注释文字可以解决很多问题
