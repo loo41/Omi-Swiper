@@ -5,8 +5,11 @@
 ## Example
 
 [demo](https://loo41.github.io/Omi-Swiper/)
+
 [api (CN)](https://www.swiper.com.cn/api/hash/211.html)
+
 [api (EN)](http://idangero.us/swiper/api/)
+
 
 ## Use
 
